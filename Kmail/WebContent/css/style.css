@@ -1,0 +1,28 @@
+
+.sf-menu {margin:0; padding:0;	list-style: none; z-index:90000; position:relative } 
+.sf-menu li{ margin:0; display:inline; position:relative; float:left}
+.sf-menu li a{color:#1a1a1a; text-decoration:none; display:block; float:left; line-height:40px; font-size:12px; text-transform:uppercase; width:145px; text-align:center; background:#e7e7e7} 
+.sf-menu li a:hover {color:#1a1a1a;  text-decoration:none; background:#ffffff}
+.sf-menu li a.current{ color:#fff; text-decoration:none; background:url(../images/bg_menu.gif)}
+
+.sf-menu ul { position:absolute; top:-999em; width:10em; line-height:1.0; }
+.sf-menu li:hover ul, .sf-menu li.sfHover ul { left:-40px; top:40px; z-index:99;}
+
+
+textarea {
+    border:1px solid #999999;
+    width:100%;
+    margin:5px -4px; /* 4px = border+padding on one side */
+    padding:3px;
+}
+
+
+.message a:link {text-decoration:none; color:#00F;}      /* unvisited link */
+.message a:visited {color:#00F;text-decoration:none;}  /* visited link */
+
+
+
+tr.lovelyrow:hover{
+  background-color:#00C;
+  cursor: pointer;
+}
